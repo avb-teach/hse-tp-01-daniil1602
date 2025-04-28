@@ -13,7 +13,7 @@ do
     shift
 done
 if (( max_depth_p==-1)); then
-  python3 main.py $in $out 0
+  python3 main.py $in $out 1
 else
     python3 main.py $in $out $max_depth_p
 fi
